@@ -1,0 +1,32 @@
+
+
+body {
+  background-color: #33ccff;  
+}
+
+
+div.filled {
+  display: block;
+  text-align: center;
+  border: 5px solid #66d9ff; /*width style colour*/
+  border-radius: 25px; /*rounded corners*/ 
+  background: #99e6ff;
+  resize: both; /* This is what is used to make a property resizable*/
+
+}
+
+
+h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px; 
+  font-weight: 900; 
+  color: #404040;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px; 
+  font-weight: 300; 
+  color: #404040;
+}
