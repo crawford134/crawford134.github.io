@@ -6,20 +6,19 @@ body {
 
 
 div.filled {
-  display: block;
-  text-align: center;
   border: 5px solid #66d9ff; /*width style colour*/
   border-radius: 25px; /*rounded corners*/ 
   background: #99e6ff;
+  padding: 2%;
+  margin: 4%;
   resize: both; /* This is what is used to make a property resizable*/
-
+  width: auto; 
 }
 
 
 h1 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 40px; 
   font-weight: 900; 
   color: #404040;
 }
@@ -30,3 +29,48 @@ h4 {
   font-weight: 300; 
   color: #404040;
 }
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+
+div.sized {
+  float: left; 
+  max-width: 45%; 
+  padding: 2%;
+}
+
+
+
+@media only screen and (max-device-width: 480px) { /* to make the site mobile friendly*/
+
+
+div.sized {
+  max-width: max-content;
+  width: 94%;
+}
+
+
+h1 {
+  font-size:17px;
+}
+
+h4 {
+  font-size: 9px;
+}
+
+
+ /* For landscape layouts on a iPad/tablet*/
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape){
+
+div.sized {
+  max-width: max-content;
+  width: 94%;
+  margin: 3%;
+}
+
+}
+
+  
