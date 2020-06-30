@@ -10,8 +10,6 @@ div.filled {
   border-radius: 25px; /*rounded corners*/ 
   background: #99e6ff;
   padding: 2%;
-  margin: 4%;
-  resize: both; /* This is what is used to make a property resizable*/
   width: auto; 
 }
 
@@ -61,6 +59,7 @@ h4 {
   font-size: 10px;
 }
 
+}
 
  /* For landscape layouts on a iPad/tablet*/
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape){
@@ -76,7 +75,7 @@ h1 {
 }
 
 h4 {
-  font-size:20px;
+  font-size:15px;
 }
 
 
