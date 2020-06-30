@@ -46,7 +46,6 @@ div.sized {
 
 @media only screen and (max-device-width: 480px) { /* to make the site mobile friendly*/
 
-
 div.sized {
   max-width: max-content;
   width: 94%;
@@ -58,7 +57,7 @@ h1 {
 }
 
 h4 {
-  font-size: 9px;
+  font-size: 10px;
 }
 
 
@@ -69,6 +68,14 @@ div.sized {
   max-width: max-content;
   width: 94%;
   margin: 3%;
+}
+
+h1 {
+  font-size:30px;
+}
+
+h4 {
+  font-size:13px;
 }
 
 }
