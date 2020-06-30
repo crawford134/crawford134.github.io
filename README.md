@@ -12,3 +12,9 @@ This is the "home page" for the gitpages site. The file name, index.html, is spe
 
 #### StyleSheet.css 
 
+## Additional Files 
+
+There are several additional files used in the creation of this website. These files include: 
+1. KileyCarsonHeadshot.jpg 
+   - This picture was used in the index.html 
+2. 
