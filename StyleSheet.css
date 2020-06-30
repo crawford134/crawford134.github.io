@@ -64,10 +64,6 @@ h4 {
  /* For landscape layouts on a iPad/tablet*/
 @media only screen and (min-device-width: 481px) and (max-device-width: 1023px) and (orientation:landscape){
 
-div.sized {
-  width: 75%;
-}
-
 h1 {
   font-size:40px;
 }
