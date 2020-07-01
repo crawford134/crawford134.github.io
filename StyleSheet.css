@@ -1,17 +1,55 @@
 
-
-body {
-  background-color: #33ccff;  
+/* The side navigation menu */
+.sidebar {
+  height:100%;
+  width: 200px;
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+  top: 0px; 
+  display: block;
+  background-color: #f1f1f1;
 }
 
 
-div.filled {
-  border: 5px solid #66d9ff; /*width style colour*/
-  border-radius: 25px; /*rounded corners*/ 
-  background: #99e6ff;
-  padding: 2%;
-  width: auto; 
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
 }
+
+
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+
+
+
+
+
 
 
 h1 {
@@ -29,26 +67,46 @@ h4 {
   color: #404040;
 }
 
-img {
-    max-width:100%;
-    height:auto;
+
+
+
+
+
+
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 1024px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+
+
+h1 {
+  font-size:27px;
+}
+
+h4 {
+  font-size:18px;
+}
+
 }
 
 
-div.sized {
-  float: left; 
-  max-width: 45%; 
-  padding: 2%;
-}
 
 
 
-@media only screen and (max-device-width: 480px) { /* to make the site mobile friendly*/
 
-div.sized {
-  max-width: max-content;
-  width: 94%;
-}
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 425px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 
 
 h1 {
@@ -59,20 +117,5 @@ h4 {
   font-size:15px;
 }
 
-}
-
- /* For landscape layouts on a iPad/tablet*/
-@media only screen and (min-device-width: 481px) and (max-device-width: 1025px) and (orientation:landscape){
-
-h1 {
-  font-size:27px;
-}
-
-h4 {
-  font-size:18px;
-}
-
 
 }
-
-  
