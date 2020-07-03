@@ -48,7 +48,7 @@ div.content {
 
 
 body {
-  background-color: #ebedf3;
+  background-color: #d9e6f2;
 }
 
 
@@ -68,8 +68,11 @@ h4 {
   color: #333333;
 }
 
-
-
+img {
+  border-radius:25px;
+  width: 100%; 
+  height: auto; 
+}
 
 
 
