@@ -1,5 +1,5 @@
 # PersonalPage
-This Repository contains the code for my personal page. 
+This Repository contains the code for my personal page. I have intentionally made the page mobile responsive.
 
 
 ## HTML Files 
