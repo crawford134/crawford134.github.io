@@ -23,7 +23,7 @@ This page is subject to change in name and content currently.
 The decided upon Blue-Grey colour skeme includes the follow colours:  
   - #003BD6
   - #6699CC 
-  - #EBEDF3 
+  - #d9e6f2 
   - #BDBDBD
   - #676767
   - #333333
