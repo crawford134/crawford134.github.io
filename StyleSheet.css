@@ -6,8 +6,7 @@
   width: 200px;
   font-family: 'Raleway', sans-serif;
   position: fixed;
-  top: 0px; 
-  display: block;
+  top: 0px;
   background-color: #BDBDBD;
 }
 
@@ -83,6 +82,7 @@ h4 {
     width: 100%;
     height: auto;
     position: relative;
+    display: inline-block;
   }
   .sidebar a {float: left;}
   div.content {margin-left: 0;}
