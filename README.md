@@ -1,6 +1,6 @@
 # PersonalPage
 This Repository contains the code for my personal page. I have intentionally made the page mobile responsive. 
-
+All the content for this website will be displayed on one page and will be accessible by scrolling and clicking on different "options" in the menu. 
 
 ## HTML Files 
 
