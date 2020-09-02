@@ -1,49 +1,135 @@
 
 
-/* The side navigation menu */
-.sidebar {
-  height:100%;
-  width: 200px;
-  font-family: 'Raleway', sans-serif;
-  position: fixed;
-  top: 0px;
+*{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  list-style: none; 
+  text-decoration: none; 
+}
+
+header{
+  width: 100%;
+  position: fixed; 
   background-color: #BDBDBD;
+  padding: 0 20px; 
+}
+
+header nav{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;   
+}
+
+nav a.logo{
+  color: #333333;
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900; 
+  text-transform: uppercase; 
+  line-height: 60px; 
+  cursor: pointer; 
+}
+
+nav ul{
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  transition: .5s; 
+}
+
+nav ul li{
+  line-height: 60px; 
+  margin: 0 5px; 
+}
+
+nav ul a{
+  color: #333333;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  padding: 5px 13px;
+  text-transform: uppercase;  
+  font-weight: 300;
+}
+
+body {
+  background-color: #d9e6f2;
+}
+
+main{
+  width: 100%
+  height: 100vh; 
+  scroll-behaviour: smooth; 
+  overflow-y: scroll; 
+}
+
+section{
+  min-height: 100vh; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column; 
+  padding: 100px; 
+}
+
+section#home{
+  background: url(MarbleImage.png)no-repeat center /cover;
+
+}
+
+.checkbtn{
+  cursor: pointer; 
+  display: none; 
+}
+#check{
+  display: none; 
+}
+
+/* Sidebar menu */
+@media(max-width:850px){
+  .checkbtn{
+    display: block; 
+   }
+   nav{
+     flex-direction: row-reverse; 
+   }
+   .logo{
+     font-size: 25px; 
+   }
+   nav ul{
+     position: fixed; 
+     top: 60px; 
+     flex-direction: column; 
+     background: #BDBDBD;
+     width: 100%; 
+     height: 100vh; 
+     align-items: flex-start; 
+     justify-content: flex-start; 
+     overflow: hidden; 
+     left: -100%;
+     opacity: 0; 
+   }
+   nav ul li{
+     width: 100%; 
+     text-align: center; 
+     border-bottom: 1px solid #a6a6a6;
+     margin: 0; 
+   }
+   nav ul li a{
+     display: block; 
+     font-size: 16px; 
+   }
+   #check:checked ~ ul {
+      left: 0; 
+      opacity: 1; 
+   }
 }
 
 
 
-/* Sidebar links */
-.sidebar a {
-  display: block;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
-}
 
 
-
-/* Active/current link */
-.sidebar a.active {
-  background-color: #003B6D;
-  color: white;
-}
-
-
-
-/* Links on mouse-over */
-.sidebar a:hover:not(.active) {
-  background-color: #6699CC;
-  color: white;
-}
-
-
-
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
-}
 
 div.split {
   width: 50%; 
@@ -54,9 +140,8 @@ div.split {
 
 
 
-body {
-  background-color: #d9e6f2;
-}
+
+
 
 
 
@@ -84,67 +169,4 @@ img {
   border-radius:25px;
   width: 100%; 
   height: auto; 
-}
-
-
-
-
-
-
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 1024px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-    display: inline-block;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-
-h1 {
-  font-size:33px;
-}
-
-h1.sub {
-  font-size:20px;
-}
-
-h4 {
-  font-size:18px;
-}
-
-}
-
-
-
-
-
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 425px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
-
-div.split {
-  width:100%;
-  padding: 0px; 
-}
-
-
-h1 {
-  font-size:22.5px;
-}
-
-h1.sub {
-  font-size:12px;
-}
-
-h4 {
-  font-size:15px;
-}
-
-
 }
