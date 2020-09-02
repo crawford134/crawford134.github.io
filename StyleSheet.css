@@ -78,6 +78,21 @@ section#home{
 
 }
 
+section#about{
+  
+
+}
+section#resume{
+  background:#fff;
+
+}
+section#contact{
+
+}
+
+
+
+
 .checkbtn{
   cursor: pointer; 
   display: none; 
