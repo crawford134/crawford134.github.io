@@ -1,20 +1,12 @@
 # PersonalPage
-This Repository contains the code for my personal page. I have intentionally made the page mobile responsive.
-
+This Repository contains the code for my personal page. I have intentionally made the page mobile responsive. 
+All the content for this website will be displayed on one page and will be accessible by scrolling and clicking on different "options" in the menu. 
 
 ## HTML Files 
 
 #### index.html  
 This is the "home page" for the gitpages site. The file name, index.html, is specified by github.
-
-### resume.html   
-This page will have my work and schooling information. 
-
-### contact.html 
-This page will have my contact information.
-
-### projects.html 
-This page is subject to change in name and content currently. 
+There are 4 main sections; "home"/landing-page section, about, resume, and contact. 
 
 ## CSS Files 
 
@@ -31,6 +23,6 @@ The decided upon Blue-Grey colour skeme includes the follow colours:
 ## Additional Files 
 
 There are several additional files used in the creation of this website. These files include: 
-1. KileyCarsonHeadshot.jpg 
-   - This picture was used in the index.html 
+1. menu.jpg 
+   - This picture was used in the index.html as the mobile menu button 
 2. 
