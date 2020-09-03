@@ -79,9 +79,25 @@ section#home{
 }
 
 section#about{
-  
-
+  flex-direction: row;
+  padding: 0px;
 }
+
+section#aboutstill{
+  float: right; 
+  width: 50%;
+  max-height: 100vh; 
+  background: #bd8fe3; 
+  display: flex;   
+}
+section#aboutlong{
+  float: left; 
+  width: 50%;
+  min-height: 100vh; 
+  background: #fff;
+  display: flex;   
+}
+
 section#resume{
   background:#fff;
 
@@ -138,6 +154,22 @@ section#contact{
    #check:checked ~ ul {
       left: 0; 
       opacity: 0.8; 
+   }
+   section#about{
+     flex-direction: column;
+   }
+   section#aboutstill{
+     margin: 0px; 
+     padding: 0px; 
+     width: 100%;
+     max-height: 100vh 
+
+   }
+   section#aboutlong{
+     margin: 0px; 
+     padding: 0px; 
+     width: 100%;
+     min-height: 100vh;
    }
 }
 
