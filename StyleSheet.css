@@ -85,6 +85,9 @@ section#about{
 }
 
 section#aboutstill{
+  position: fixed;
+  top: 0;
+  left: 0; 
   float: right; 
   width: 50%;
   max-height: 100vh; 
@@ -92,12 +95,13 @@ section#aboutstill{
   display: flex;   
 }
 section#aboutlong{
-  align-items: unset; 
-  float: left; 
+  position: relative; 
   width: 50%;
+  left: 25%; 
+  z-index: 100; 
   min-height: 100vh; 
-  background: #fff;
   display: flex;   
+  align-items: unset;
 }
 
 section#resume{
