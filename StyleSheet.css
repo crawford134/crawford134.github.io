@@ -79,13 +79,12 @@ section#home{
 }
 
 section#about{
-  align-items: center;
+  align-items: start;
   flex-direction: row;
   padding: 0px;
 }
 
 section#aboutstill{
-  position: fixed;
   top: 0;
   left: 0; 
   float: right; 
@@ -95,13 +94,10 @@ section#aboutstill{
   display: flex;   
 }
 section#aboutlong{
-  position: relative; 
   width: 50%;
   left: 25%; 
-  z-index: 100; 
   min-height: 100vh; 
   display: flex;   
-  align-items: unset;
 }
 
 section#resume{
