@@ -25,4 +25,4 @@ The decided upon Blue-Grey colour skeme includes the follow colours:
 There are several additional files used in the creation of this website. These files include: 
 1. menu.jpg 
    - This picture was used in the index.html as the mobile menu button 
-2. 
+2. animations.js
