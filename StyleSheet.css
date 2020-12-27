@@ -198,6 +198,18 @@ object{
   height: 1500px; 
 }
 
+
+
+/*Styling for the About section Table*/
+
+.tr_shaded:nth-child(even) {
+  background: #e0e0e0;
+}
+
+.tr_shaded:nth-child(odd) {
+  background: #ffffff;
+}
+
 .scrolly_table {
   white-space: nowrap;
   overflow: auto;
@@ -212,6 +224,8 @@ object{
   z-index: 10;
   position: relative;
 }
+
+
 
 
 
