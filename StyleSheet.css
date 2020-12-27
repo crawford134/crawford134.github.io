@@ -198,6 +198,21 @@ object{
   height: 1500px; 
 }
 
+.scrolly_table {
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.fixed.freeze_horizontal {
+  z-index: 1;
+  position: relative;
+}
+
+.fixed.freeze {
+  z-index: 10;
+  position: relative;
+}
+
 
 
 
