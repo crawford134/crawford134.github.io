@@ -89,7 +89,7 @@ div{
 
 table#about{
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
 }
 
 tr{
@@ -98,7 +98,8 @@ tr{
 }
 
 tr#aboutstill{
-  background-color: #bd8fe3;
+    min-height: 100vh;
+    background-color: #bd8fe3;
 }
 
 
