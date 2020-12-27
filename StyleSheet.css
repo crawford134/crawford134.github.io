@@ -84,6 +84,10 @@ section#about{
   padding: 0px;
 }
 
+
+
+
+
 section#aboutstill{
   top: 0;
   left: 0; 
@@ -119,7 +123,9 @@ section#contact{
   display: none; 
 }
 
-/* Sidebar menu */
+
+
+/* Sidebar menu - This is for mobile */
 @media screen and (max-width:850px){
   .checkbtn{
     display: block; 
