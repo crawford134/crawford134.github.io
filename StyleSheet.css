@@ -202,15 +202,7 @@ object{
 
 /*Styling for the About section Table*/
 
-.tr_shaded:nth-child(even) {
-  background: #e0e0e0;
-}
-
-.tr_shaded:nth-child(odd) {
-  background: #ffffff;
-}
-
-.scrolly_table {
+.scrolling_table {
   white-space: nowrap;
   overflow: auto;
 }
