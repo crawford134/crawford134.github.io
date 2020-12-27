@@ -79,6 +79,9 @@ section#home{
 }
 
 
+.table#about{
+    width: 100%;
+}
 
 
 
@@ -209,13 +212,6 @@ section#contact{
 #check{
   display: none; 
 }
-
-
-
-
-
-
-
 
 div.split {
   width: 50%;
