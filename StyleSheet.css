@@ -75,8 +75,60 @@ section{
 
 section#home{
   background: url(MarbleImage.png)no-repeat center /cover;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Styling for the About section Table*/
+
+.scrolling_table {
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    white-space: nowrap;
+    overflow: auto;
 
 }
+
+.fixed.freeze_horizontal {
+  z-index: 1;
+  position: relative;
+}
+
+.fixed.freeze {
+  z-index: 10;
+  position: relative;
+}
+
+
+/*END OF THE ABOUT SECTION*/
+
 
 section#about{
   align-items: start;
@@ -84,25 +136,63 @@ section#about{
   padding: 0px;
 }
 
-
-
-
-
 section#aboutstill{
   top: 0;
-  left: 0; 
-  float: right; 
+  left: 0;
+  float: right;
   width: 50%;
-  max-height: 100vh; 
-  background: #bd8fe3; 
-  display: flex;   
+  max-height: 100vh;
+  background: #bd8fe3;
+  display: flex;
 }
+
 section#aboutlong{
   width: 50%;
-  left: 25%; 
-  min-height: 100vh; 
-  display: flex;   
+  left: 25%;
+  min-height: 100vh;
+  display: flex;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 section#resume{
   background:#fff;
@@ -112,9 +202,6 @@ section#contact{
 
 }
 
-
-
-
 .checkbtn{
   cursor: pointer; 
   display: none; 
@@ -122,6 +209,67 @@ section#contact{
 #check{
   display: none; 
 }
+
+
+
+
+
+
+
+
+div.split {
+  width: 50%;
+  height: auto;
+  padding: 5px;
+  float: right;
+}
+
+object{
+  width: 100%;
+  height: 1500px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: #333333;
+}
+
+h1.sub {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #333333;
+}
+
+img {
+  border-radius:25px;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -186,66 +334,4 @@ section#contact{
 
 
 
-div.split {
-  width: 50%; 
-  height: auto; 
-  padding: 5px;
-  float: right; 
-}
 
-object{
-  width: 100%;
-  height: 1500px; 
-}
-
-
-
-/*Styling for the About section Table*/
-
-.scrolling_table {
-  white-space: nowrap;
-  overflow: auto;
-}
-
-.fixed.freeze_horizontal {
-  z-index: 1;
-  position: relative;
-}
-
-.fixed.freeze {
-  z-index: 10;
-  position: relative;
-}
-
-
-
-
-
-
-
-
-h1 {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-size: 40px;
-  font-weight: 900; 
-  color: #333333;
-}
-
-h1.sub {
-  font-size: 25px;
-  font-weight: 300;
-}
-
-h4 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 22px; 
-  font-weight: 300; 
-  color: #333333;
-}
-
-img {
-  border-radius:25px;
-  width: 100%; 
-  height: auto; 
-}
