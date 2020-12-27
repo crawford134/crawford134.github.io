@@ -65,13 +65,6 @@ function freeze_pane_listener(what_is_this, table_class) {
   }
 }
 
-function even_odd_color(i) {
-  if (i % 2 == 0) {
-    return "#e0e0e0";
-  } else {
-    return "#ffffff";
-  }
-}
 
 function parent_id(wanted_node_name, elt) {
   // Function to work up the DOM until it reaches
