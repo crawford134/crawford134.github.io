@@ -147,19 +147,27 @@ object{
 h1 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 40px;
-  font-weight: 900;
+  font-size: 5em;   /* */
+  font-weight: 900; /*700 is bold*/
   color: #333333;
 }
 
 h1.sub {
-  font-size: 25px;
+  font-size: 1em;
   font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4em;
+    font-weight: 750;
+    color: #333333;
 }
 
 h4 {
   font-family: 'Raleway', sans-serif;
-  font-size: 22px;
+  font-size: 2em;
   font-weight: 300;
   color: #333333;
 }
