@@ -227,18 +227,23 @@ img {
       opacity: 0.8; 
    }
    
-   #aboutstill{
+   #about{
+     direction: column;
+   }
+   
+   div#aboutstill{
      margin: 0px; 
      padding: 0px; 
      width: 100%;
-     max-height: 100vh 
-
+     max-height: 100vh
    }
-   #aboutscroll{
+   
+   div#aboutscroll{
      margin: 0px; 
      padding: 0px; 
      width: 100%;
      min-height: 100vh;
+     overflow: auto;
    }
 }
 
