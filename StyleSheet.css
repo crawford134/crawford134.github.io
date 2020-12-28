@@ -229,7 +229,7 @@ img {
    
    #about{
      direction: column;
-     min-height: 100vh;
+     height: 600vh;
    }
    
    div#aboutstill{
@@ -241,7 +241,8 @@ img {
    }
    div#aboutscroll{
      margin: 0px; 
-     padding: 0px; 
+     padding: 0px;
+     overflow: visible;
      width: 100%;
      min-height: 100vh;
    }
