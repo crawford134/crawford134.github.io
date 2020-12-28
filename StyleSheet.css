@@ -229,6 +229,7 @@ img {
    
    #about{
      direction: column;
+     height: auto;
    }
    
    div#aboutstill{
