@@ -113,34 +113,6 @@ div{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 section#resume{
   background:#fff;
 
@@ -254,11 +226,12 @@ img {
      max-height: 100vh 
 
    }
-   section#aboutlong{
+   section#aboutscroll{
      margin: 0px; 
      padding: 0px; 
      width: 100%;
      min-height: 100vh;
+     overflow:visible;
    }
 }
 
